@@ -84,8 +84,10 @@ export { future as theme } from '@mdx-deck/themes'
 		borderLeft: '1px solid #fff',
 		borderRight: '1px solid #fff'
 	}}>
-	React Hardware enables you to build firmata-based hardware applications using a consistent developer 
-	experience based on JavaScript and React.
+	<q>
+		React Hardware enables you to build firmata-based hardware applications using a consistent developer 
+		experience based on JavaScript and React.
+	</q>
 </p>
 </Appear>
 
@@ -127,4 +129,35 @@ export { future as theme } from '@mdx-deck/themes'
 </p>
 
 ---
+## Cheating - Part Two, "I did it"
+<p style={paragraphOverride.p}>
+	For reasons that will soon become apparent, binary devices don't work great with React.
+	In such circumstances, I've used Johnny-Five as a fallback. While supported, it's 
+	almost against the intent of the project.
+</p>
+
+---
 ## Let's blink a light!
+
+---
+## Some Takeaways
+
+<ul>
+	<Appear>
+		<li>React state transitions and binary components don't always mix well</li>
+		<li>Linux is always better at talking directly to devices</li>
+		<li>
+			<q>
+				...your scientists were so preoccupied with whether or not they <strong>could </strong>
+				that they didn't stop to think if they <strong>should</strong>
+			</q>
+		</li>
+	</Appear>
+</ul>
+
+---
+## More Reading
+<ul>
+	<li>React-Hardware: <a href="https://github.com/iamdustan/react-hardware">https://github.com/iamdustan/react-hardware</a></li>
+	<li>Johnny-Five: <a href="http://johnny-five.io/">http://johnny-five.io/</a></li>
+</ul>
